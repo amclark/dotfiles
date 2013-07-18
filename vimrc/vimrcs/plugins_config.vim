@@ -99,3 +99,10 @@ let g:multi_cursor_next_key="\<C-s>"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 vmap Si S(i_<esc>f)
 au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-slime
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:slime_target = "tmux"
+let g:slime_default_config = {"socket_name": "default", "target_pane": "2"}
