@@ -150,10 +150,14 @@ nnoremap <silent> <F7> :TlistToggle<CR>
 
 " Easier navigation between splits
 nmap <silent> <C-h> :wincmd h<CR>
-nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 
 " Resizing splits
 nmap <silent> > :wincmd h<CR>:vertical resize +5<CR>
 nmap <silent> < :wincmd h<CR>:vertical resize -5<CR>
+
+" Jump to a tag in Taglist plugin, <C-j> is same as <C-Enter>
+nmap <silent> <C-j> ye:wincmd h<CR>/\(^\\| \)\zs<C-r>0\ze\(\.py\\| \\|$\)<CR>
+
+
