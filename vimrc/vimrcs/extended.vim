@@ -158,6 +158,6 @@ nmap <silent> > :wincmd h<CR>:vertical resize +5<CR>
 nmap <silent> < :wincmd h<CR>:vertical resize -5<CR>
 
 " Jump to a tag in Taglist plugin, <C-j> is same as <C-Enter>
-nmap <silent> <C-j> ye:wincmd h<CR>/\(^\\| \)\zs<C-r>0\ze\(\.py\\| \\|$\)<CR>
+"nmap <silent> <C-j> ye:wincmd h<CR>/\(^\\| \)\zs<C-r>0\ze\(\.py\\| \\|$\)<CR>
 
 
