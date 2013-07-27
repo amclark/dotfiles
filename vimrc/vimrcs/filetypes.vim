@@ -6,6 +6,7 @@ au FileType python syn keyword pythonDecorator True None False self
 
 au BufNewFile,BufRead *.jinja set syntax=htmljinja
 au BufNewFile,BufRead *.mako set ft=mako
+au BufNewFile,BufRead *.pjs set ft=javascript
 
 au FileType python setl foldmethod=indent
 
