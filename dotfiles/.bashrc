@@ -214,5 +214,8 @@ fi
 ## -- 3) User-customized code  --
 ## ------------------------------
 
+export LANG=en_US.UTF-8                                                                                                                                      
+export LC_ALL=en_US.UTF-8
+
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
